@@ -1,4 +1,0 @@
---> fast loading
---> fast development
---> Angular provides a lot of featurs like validation library, routing, component bases structure
---> Large community

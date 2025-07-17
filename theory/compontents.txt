@@ -1,0 +1,26 @@
+//component in Angular
+======================================================================
+In Angular, a component is the fundamental building block of the UI.
+Each component controls a portion of the screen called a view.
+
+src/
+└── app/
+    └── user/
+        ├── user.component.ts
+        ├── user.component.html
+        ├── user.component.css
+        └── user.component.spec.ts
+
+Creating a Component --> "ng generate component component_name" or "ng g c component_name"
+
+| Hook            | Purpose                                    |
+| --------------- | ------------------------------------------ |
+| `ngOnInit()`    | Called once after component is initialized |
+| `ngOnChanges()` | Called when input properties change        |
+| `ngOnDestroy()` | Called just before component is destroyed  |
+
+Best Practices
+--> Keep components small and focused.
+--> Use @Input() and @Output() for passing data.
+--> Separate logic into services when needed.
+--> Avoid business logic inside templates.

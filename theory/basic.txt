@@ -1,0 +1,17 @@
+--> fast loading
+--> fast development
+--> Angular provides a lot of featurs like validation library, routing, component bases structure
+--> Large community
+
+
+//interpolation in Angular
+================================================================================
+Interpolation in Angular is a technique used to bind component class data into the HTML template.
+It’s the most basic form of data binding and is primarily used for displaying dynamic values.
+{{expression}}
+
+You cannot use assignments or flow control statements like if, for, etc.
+
+Use interpolation for string and number rendering.
+Prefer property binding ([src], [href], etc.) for attributes and DOM properties.
+<img src="{{ imageUrl }}" />
