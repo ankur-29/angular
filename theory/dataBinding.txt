@@ -1,0 +1,11 @@
+// Data Binding in Angular
+=============================================================
+Data Binding in Angular is the mechanism that allows the framework to coordinate the data 
+between the component class (TypeScript) and the template (HTML).
+
+| Binding Type            | Direction            | Syntax Example            |
+| ----------------------- | -------------------- | ------------------------- |
+| 1. **Interpolation**    | Component → Template | `{{ title }}`             |
+| 2. **Property Binding** | Component → Template | `[src]="imageUrl"`        |
+| 3. **Event Binding**    | Template → Component | `(click)="handleClick()"` |
+| 4. **Two-Way Binding**  | Both ways            | `[(ngModel)]="username"`  |
